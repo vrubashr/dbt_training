@@ -1,0 +1,7 @@
+sources:
+  - name: jaffle_shop
+    database: dbt-analytics-495608
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: customer_orders
