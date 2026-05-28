@@ -1,6 +1,6 @@
 with source as (
 
-    select * from dbt-analytics-495608.stripe.payments
+    select * from {{ source('stripe', 'payments') }}
 ),
 
 renamed as (

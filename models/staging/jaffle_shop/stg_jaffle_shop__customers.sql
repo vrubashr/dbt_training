@@ -3,4 +3,4 @@
     first_name,
     last_name
 
-from dbt-analytics-495608.jaffle_shop.customers
+from {{ source('jaffle_shop', 'customers') }}
